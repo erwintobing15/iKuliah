@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    android:id="@+id/view_judul_jadwal">
+
+
+    <TextView
+        android:id="@+id/matkul_jadwal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_10dp"
+        android:layout_toStartOf="@id/hari_jadwal"
+        android:maxLines="1"
+        android:paddingRight="@dimen/dimen_3dp"
+        android:paddingLeft="@dimen/dimen_3dp"
+        android:paddingTop="@dimen/dimen_10dp"
+        android:paddingBottom="@dimen/dimen_10dp"
+        android:textSize="@dimen/dimen_15sp"
+        android:text="@string/judul_matkul"
+        android:textColor="@android:color/black"
+        android:fontFamily="sans-serif-black" />
+
+    <TextView
+        android:id="@+id/hari_jadwal"
+        android:layout_width="@dimen/dimen_75dp"
+        android:layout_height="wrap_content"
+        android:layout_toStartOf="@id/waktu_jadwal"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:paddingRight="@dimen/dimen_3dp"
+        android:paddingLeft="@dimen/dimen_3dp"
+        android:paddingTop="@dimen/dimen_10dp"
+        android:paddingBottom="@dimen/dimen_10dp"
+        android:textSize="@dimen/dimen_15sp"
+        android:visibility="visible"
+        android:text="@string/judul_hari"
+        android:textColor="@android:color/black"
+        android:fontFamily="sans-serif-black"/>
+
+    <TextView
+        android:id="@+id/waktu_jadwal"
+        android:layout_width="@dimen/dimen_75dp"
+        android:text="@string/judul_waktu"
+        android:layout_toStartOf="@id/ruangan_jadwal"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:paddingRight="@dimen/dimen_3dp"
+        android:paddingLeft="@dimen/dimen_3dp"
+        android:paddingTop="@dimen/dimen_10dp"
+        android:paddingBottom="@dimen/dimen_10dp"
+        android:textSize="@dimen/dimen_15sp"
+        android:visibility="visible"
+        android:textColor="@android:color/black"
+        android:fontFamily="sans-serif-black"/>
+
+    <TextView
+        android:id="@+id/ruangan_jadwal"
+        android:layout_width="@dimen/dimen_75dp"
+        android:text="@string/judul_ruangan"
+        android:layout_alignParentEnd="true"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/dimen_10dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:paddingLeft="@dimen/dimen_3dp"
+        android:paddingTop="@dimen/dimen_10dp"
+        android:paddingBottom="@dimen/dimen_10dp"
+        android:textSize="@dimen/dimen_15sp"
+        android:visibility="visible"
+        android:textColor="@android:color/black"
+        android:fontFamily="sans-serif-black" />
+
+</RelativeLayout>

@@ -1,0 +1,86 @@
+<resources>
+
+    <string name="app_name">iKuliah</string>
+    <string name="home">Mata Kuliah</string>
+    <string name="jadwal">Jadwal Kuliah</string>
+    <string name="catatan">Catatan Penting</string>
+
+    <string name="empty_matkul1">Tekan tombol tambah untuk</string>
+    <string name="empty_matkul2">memasukkan mata kuliah</string>
+    <string name="empty_jadwal1">Tekan tombol tambah</string>
+    <string name="empty_jadwal2">untuk membuat jadwal</string>
+    <string name="empty_catatan1">Tekan tombol tambah</string>
+    <string name="empty_catatan2">untuk membuat catatan</string>
+
+    <string name="btn_update">Ubah</string>
+    <string name="btn_delete">Hapus</string>
+
+    <string name="enter_matkul">Matakuliah</string>
+    <string name="enter_sks">Jumlah sks</string>
+    <string name="enter_indeks">Indeks Nilai</string>
+
+    <string name="tambah">Tambah</string>
+    <string name="add_semester">Semester</string>
+    <string name="tampilkan_ipk">TAMPILKAN IP</string>
+
+    <string name="home_nav">Home</string>
+    <string name="jadwal_nav">Jadwal</string>
+    <string name="catatan_nav">Catatan</string>
+
+    <string name="judul_matkul">Mata Kuliah</string>
+    <string name="judul_hari">Hari</string>
+    <string name="judul_waktu">Waktu</string>
+    <string name="judul_ruangan">Ruangan</string>
+    <string name="judul_sks">SKS</string>
+    <string name="judul_nilai">Nilai</string>
+    <string name="judul_bobot">Bobot</string>
+    <string name="judul_semester">Semester</string>
+    <string name="add_catatan">Tambah</string>
+    <string name="keterangan">Keterangan</string>
+    <string name="note">Isikan catatan penting!</string>
+
+    <string name="hint_waktu">Waktu contoh 07:30</string>
+    <string name="hint_ruangan">Ruangan contoh R3830</string>
+
+    <string-array name="hari_array">
+        <item>Pilih Hari</item>
+        <item>Senin</item>
+        <item>Selasa</item>
+        <item>Rabu</item>
+        <item>Kamis</item>
+        <item>Jumat</item>
+        <item>Sabtu</item>
+        <item>Minggu</item>
+    </string-array>
+
+    <string-array name="semester_array">
+        <item>Semester</item>
+        <item>I</item>
+        <item>II</item>
+        <item>III</item>
+        <item>IV</item>
+        <item>V</item>
+        <item>VI</item>
+        <item>VII</item>
+        <item>VIII</item>
+        <item>IX</item>
+        <item>X</item>
+        <item>XI</item>
+        <item>XII</item>
+        <item>XIII</item>
+        <item>XIV</item>
+    </string-array>
+
+    <string-array name="indeks_array">
+        <item>Nilai</item>
+        <item>A</item>
+        <item>B+</item>
+        <item>B</item>
+        <item>C+</item>
+        <item>C</item>
+        <item>D+</item>
+        <item>D</item>
+        <item>E</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.chupakubera.sqliteipkul">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_logo_round"
+        android:roundIcon="@drawable/ic_logo_round"
+        android:supportsRtl="true"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name="com.chupakubera.ipkuliah.activity.SplashActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.chupakubera.ipkuliah.activity.matkul.DaftarMatkulActivity"
+            android:label="@string/home" />
+        <activity
+            android:name="com.chupakubera.ipkuliah.activity.jadwal.JadwalActivity"
+            android:label="@string/jadwal" />
+
+        <activity android:name="com.chupakubera.ipkuliah.activity.catatan.CatatanActivity"
+            android:label="@string/catatan" />
+
+        <activity android:theme="@android:style/Theme.DeviceDefault.Light.Dialog"
+            android:name="com.chupakubera.ipkuliah.activity.matkul.UpdateMatkulActivity"/>
+
+        <activity android:theme="@android:style/Theme.DeviceDefault.Light.Dialog"
+            android:name="com.chupakubera.ipkuliah.activity.matkul.TambahMatkulActivity"/>
+
+        <activity android:theme="@android:style/Theme.DeviceDefault.Light.Dialog"
+            android:name="com.chupakubera.ipkuliah.activity.jadwal.TambahJadwalActivity"/>
+
+        <activity android:theme="@android:style/Theme.DeviceDefault.Light.Dialog"
+            android:name="com.chupakubera.ipkuliah.activity.matkul.TampilkanIpkActivity"/>
+
+        <activity android:theme="@android:style/Theme.DeviceDefault.Light.Dialog"
+            android:name="com.chupakubera.ipkuliah.activity.jadwal.UpdateJadwalActivity"/>
+
+        <activity android:theme="@android:style/Theme.DeviceDefault.Light.Dialog"
+            android:name="com.chupakubera.ipkuliah.activity.catatan.TambahCatatanActivity"/>
+
+        <activity android:theme="@android:style/Theme.DeviceDefault.Light.Dialog"
+            android:name="com.chupakubera.ipkuliah.activity.catatan.UpdateCatatanActivity"/>
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-8008661425060167~1489378391"/>
+
+    </application>
+
+</manifest>
