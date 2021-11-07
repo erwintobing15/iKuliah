@@ -1,7 +1,7 @@
 <h1 align="center"> iKuliah </h1> <br>
 <p align="center">
   <a href="https://play.google.com/store/apps/details?id=com.chupakubera.ipkuliah">
-    <img alt="iKuliah" title="iKuliah" src="../assets/logo.png" width="450">
+    <img alt="iKuliah" title="iKuliah" src="../assets/logo.png" width="224">
   </a>
 </p>
 <p align="center">
