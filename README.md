@@ -5,9 +5,6 @@
   </a>
 </p>
 <p align="center">
-  Try it out.
-</p>
-<p align="center">
   <a href="https://play.google.com/store/apps/details?id=com.chupakubera.ipkuliah">
     <img alt="Get it on Google Play" title="Google Play" src="http://i.imgur.com/mtGRPuM.png" width="140">
   </a>
