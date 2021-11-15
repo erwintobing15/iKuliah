@@ -40,4 +40,4 @@
 * Ability to add, update, and delete simple schedule
 
 ## Information Architecture
-[Information Architecture](../assets/ia.png)
+![Information Architecture](../assets/ia.png)
