@@ -11,7 +11,7 @@
 </p>
 
 
-> iKuliah is a simple android app to save university course credits, grades and calculate GPA. This is the first android app that I built to complete one of my university assignments. This app is built using java and android studio.
+> A simple android app to save university course credits, grades and calculate GPA. This is the first android app that I built to complete one of my university assignments.
 
 ## Screenshoot
 <table>
@@ -28,11 +28,16 @@
     </tr>
 </table>
 
-## Technologies 
+## Technologies
 * Java
 * Android Studio
+* SQLite
 
 ## Features
-* Save a course credit and grade
-* Calculate GPA
+* Ability to add, update, and delete credit and grade of as subject
+* Calculate GPA from totals credit save
+* Ability to add, update, and delete simple note
+* Ability to add, update, and delete simple schedule
 
+## Information Architecture
+[Information Architecture](../assets/ia.png)
